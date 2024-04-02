@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="common">
+      <div class="topcontainer">
+        <h1>Gentella Form Elements</h1>
+        <div class="allsidestop">
+          <div class="topsides">
+            <div class="firstleft">
+              <h2>
+                Form Design &emsp;different from elements
+                <span
+                  ><i class="fa-solid fa-chevron-up"></i
+                  ><i class="fa-solid fa-wrench"></i
+                  ><i class="fa-solid fa-xmark"></i
+                ></span>
+              </h2>
+              <hr class="firsthr" />
+
+              <form action="" class="firstform">
+                <input type="text" placeholder="First Name" />
+                <input type="text" placeholder="Last Name" />
+              </form>
+              <div class="person">
+                <span
+                  ><i class="fa-solid fa-user"></i>
+                  <hr
+                /></span>
+                <span
+                  ><hr />
+                  <i class="fa-solid fa-user"></i>
+                </span>
+              </div>
+              <form action="" class="firstform">
+                <input type="email" placeholder="Email" />
+                <input type="text" placeholder="Phone" />
+              </form>
+              <div class="person">
+                <span
+                  ><i class="fa-solid fa-envelope"></i>
+                  <hr
+                /></span>
+                <span
+                  ><hr />
+                  <i class="fa-solid fa-phone"></i
+                ></span>
+              </div>
+              <ul class="headerul">
+                <li>
+                  <p>Default Input</p>
+                  <form action="">
+                    <input type="text" placeholder="Default Input" />
+                  </form>
+                </li>
+                <li>
+                  <p>Disabled Input</p>
+                  <form action="">
+                    <input
+                      type="text"
+                      placeholder="Disabled Input"
+                      class="Disabled"
+                    />
+                  </form>
+                </li>
+                <li>
+                  <p>Readonly Input</p>
+                  <form action="">
+                    <input
+                      type="text"
+                      placeholder="Readonly Input"
+                      class="Disabled"
+                    />
+                  </form>
+                </li>
+                <li>
+                  <p>Date of Birth *</p>
+                  <form action="">
+                    <input type="text" placeholder="Default Input" />
+                  </form>
+                </li>
+              </ul>
+              <div class="endbutton">
+                <button class="cancel">Cancel</button>
+                <button class="submit">Submit</button>
+              </div>
+            </div>
+            <div class="color"></div>
+            <div class="secondleft">
+              <h2>
+                Star Rating<span
+                  ><i class="fa-solid fa-chevron-up"></i
+                  ><i class="fa-solid fa-wrench"></i
+                  ><i class="fa-solid fa-xmark"></i
+                ></span>
+              </h2>
+              <hr class="secondhr" />
+              <div class="txtstar">
+                <h3>Star Ratings Hover and click o a star</h3>
+                <p>You gave a rating of 0 star(s)</p>
+                <p>
+                  Also you can give a default rating by adding attribute
+                  data-rating
+                </p>
+                <p class="you">You gave a rating of 4 star(s)</p>
+              </div>
+            </div>
+            <div class="color"></div>
+            <div class="thirdleft">
+              <h2>
+                Registration Form &emsp;click to validate<span
+                  ><i class="fa-solid fa-chevron-up"></i
+                  ><i class="fa-solid fa-wrench"></i
+                  ><i class="fa-solid fa-xmark"></i
+                ></span>
+              </h2>
+              <hr class="thirdhr" />
+              <h3>Full name *:</h3>
+              <input type="text" class="fullname" />
+              <h3>Email *:</h3>
+              <input type="email" class="fullname" />
+              <h3>Gender *:</h3>
+              <div class="gender">
+                <label for="male">M:</label>
+                <input type="radio" name="gender" />
+                <label for="male">F:</label>
+                <input type="radio" name="gender" />
+              </div>
+              <h3>Hobbies(2 minimum):</h3>
+              <ul class="hobbies">
+                <li>
+                  <input type="checkbox" name="hobbies" />
+                  <label for="skiing">Skiing</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="hobbies" />
+                  <label for="running">Running</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="hobbies" />
+                  <label for="eating">Eating</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="hobbies" />
+                  <label for="sleeping">Sleeping</label>
+                </li>
+              </ul>
+              <h3>Heard us by *:</h3>
+              <form action="">
+                <input type="text" class="heard" placeholder="Choose..." />
+              </form>
+              <h3>Message (20 chars min, 100 max):</h3>
+              <form action="">
+                <textarea name="" id="" cols="79" rows="3"></textarea>
+              </form>
+              <button class="validate">Validate form</button>
+            </div>
+            <div class="color"></div>
+            <div class="fourthleft">
+              <h2>
+                Form Buttons &emsp;<span
+                  ><i class="fa-solid fa-chevron-up"></i
+                  ><i class="fa-solid fa-wrench"></i
+                  ><i class="fa-solid fa-xmark"></i
+                ></span>
+              </h2>
+              <hr class="thirdhr" />
+              <ul class="fourthul">
+                <li>
+                  <p>Button addons</p>
+                  <span
+                    ><button class="fourthbutton">Go!</button
+                    ><input type="text"
+                  /></span>
+                </li>
+                <li>
+                  <span></span
+                  ><span
+                    ><input type="text" /><button class="fourthbutton">
+                      Go!
+                    </button></span
+                  >
+                </li>
+                <li>
+                  <span></span
+                  ><span
+                    ><input type="text" />Action<i
+                      class="fa-solid fa-chevron-down"
+                    ></i
+                  ></span>
+                </li>
+                <li>
+                  <span></span
+                  ><span
+                    ><input type="text" /><button class="fourthbutton">
+                      Go!
+                    </button></span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="rightside">
+            <div class="firstright">
+              <h2>
+                Form Basic Elements &emsp;different from elements<span
+                  ><i class="fa-solid fa-chevron-up"></i
+                  ><i class="fa-solid fa-wrench"></i
+                  ><i class="fa-solid fa-xmark"></i
+                ></span>
+              </h2>
+              <hr class="thirdhr" />
+              <ul class="rightul">
+                <li>
+                  <p>Default Input</p>
+                  <form action="">
+                    <input type="text" placeholder="Default Input" />
+                  </form>
+                </li>
+                <li>
+                  <p>Disabled Input</p>
+                  <form action="">
+                    <input type="text" />
+                  </form>
+                </li>
+                <li>
+                  <p>Read-Only Input</p>
+                  <form action="">
+                    <input type="text" placeholder="Read-Only Input" />
+                  </form>
+                </li>
+                <li>
+                  <p>Date of Birth *:</p>
+                  <input type="text" />
+                </li>
+                <li>
+                  <p>Password</p>
+                  <form action="">
+                    <input type="password" placeholder="********" />
+                  </form>
+                </li>
+                <li>
+                  <p>Auto Complate</p>
+                  <form action="">
+                    <input type="text" />
+                  </form>
+                </li>
+                <li>
+                  <p>Select</p>
+                  <form action="">
+                    <input type="text" placeholder="Choose Option" />
+                  </form>
+                </li>
+                <li>
+                  <p>Select Custom</p>
+                  <input type="text" />
+                </li>
+                <li>
+                  <p>Select Grouped</p>
+                  <form action="">
+                    <input type="text" placeholder="Alaska" />
+                  </form>
+                </li>
+                <li>
+                  <p>Select Multiple</p>
+                  <form action="">
+                    <input type="text" placeholder="Choose Option" />
+                  </form>
+                </li>
+                <li>
+                  <p>Input Tags</p>
+                  <form action="">
+                    <input type="text" placeholder="socail,adverts,sales" />
+                  </form>
+                </li>
+              </ul>
+
+              <ul class="rightsideul">
+                <li>
+                  <input type="checkbox" name="hobbies" />
+                  <p>Option one,select more than one option</p>
+                </li>
+                <li>
+                  <input type="checkbox" name="hobbies" />
+                  <p>Option one,select more than one option</p>
+                </li>
+                <li>
+                  <input type="radio" name="hobbies" />
+                  <p>Option one,only select one option</p>
+                </li>
+                <li>
+                  <input type="radio" name="hobbies" />
+                  <p>Option one,only select one option</p>
+                </li>
+                
+              </ul>
+              <ul class="check">
+                <li>
+                  <input type="checkbox" name="hobbies" />
+                  <label for="skiing">Checked</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="hobbies" />
+                  <label for="running">Unchecked</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="hobbies" />
+                  <label for="eating">Disabled</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="hobbies" />
+                  <label for="sleeping">Disabled & Checked</label>
+                </li>
+                <li>
+                  <input type="radio" name="hobbies" />
+                  <label for="skiing">Checked</label>
+                </li>
+                <li>
+                  <input type="radio" name="hobbies" />
+                  <label for="running">Unchecked</label>
+                </li>
+                <li>
+                  <input type="radio" name="hobbies" />
+                  <label for="eating">Disabled</label>
+                </li>
+                <li>
+                  <input type="radio" name="hobbies" />
+                  <label for="sleeping">Disabled & Checked</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="hobbies" />
+                  <label for="skiing">Checked</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="hobbies" />
+                  <label for="running">Unchecked</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="hobbies" />
+                  <label for="eating">Disabled</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="hobbies" />
+                  <label for="sleeping">Disabled & Checked</label>
+                </li>
+                
+                </li>
+              </ul>
+              <div class="endbutton">
+                <button class="cancel">Cancel</button>
+                <button class="submit">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="twocommon">
+      <div class="firsttwocommon"> <h2>
+        Text Areas &ensp;Sessions<span
+          ><i class="fa-solid fa-chevron-up"></i
+          ><i class="fa-solid fa-wrench"></i
+          ><i class="fa-solid fa-xmark"></i
+        ></span>
+      </h2>
+      <hr class="secondhr" />
+       <div class="tools">
+        <div class="icons">
+          <i class="fa-solid fa-a"></i>
+          <i class="fa-solid fa-text-height"></i>
+          <i class="fa-solid fa-b"></i>
+          <i class="fa-solid fa-italic"></i>
+          <i class="fa-solid fa-strikethrough"></i>
+          <i class="fa-solid fa-underline"></i>
+          <i class="fa-solid fa-list-ul"></i>
+          <i class="fa-solid fa-list-ol"></i>
+          <i class="fa-solid fa-list"></i>
+          <i class="fa-regular fa-rectangle-list"></i>
+          <i class="fa-solid fa-align-left"></i>
+          <i class="fa-solid fa-align-center"></i>
+          <i class="fa-solid fa-align-right"></i>
+          <i class="fa-solid fa-align-justify"></i>
+          <i class="fa-solid fa-link"></i>
+          <i class="fa-solid fa-scissors"></i>
+          <i class="fa-solid fa-image"></i>
+        </div>
+         <button>Choose File</button><p>No file choosen</p>
+         <i class="fa-solid fa-rotate-left" style="margin-right:30px ;"></i>
+         <i class="fa-solid fa-rotate-right"></i>
+       </div>
+       <form action=""  class="firstformbot">
+        <input type="text">
+       </form>
+       <hr class="bottomfirsthr">
+        <div class="backtextfirst">
+          <p>Resizable Text area</p>
+          <textarea name="" id="" cols="90" rows="4" placeholder="This text area automaticly resizes its height as you fill in more text courtesy of autosize-master it out..."></textarea>
+        </div>
+    </div>
+    <div class="secondtwocommon">
+      <h2>
+        Form Input Grid &ensp;form input<span
+          ><i class="fa-solid fa-chevron-up"></i
+          ><i class="fa-solid fa-wrench"></i
+          ><i class="fa-solid fa-xmark"></i
+        ></span>
+      </h2>
+      <hr class="secondhr" />
+      <form action="" class="grid">
+        <input type="text" placeholder="col-md-12">
+       <div class="iki"><input type="text"placeholder="col-md-6">
+        <input type="text" placeholder="col-md-6"></div> 
+       <div class="uc"><input type="text" placeholder="col-md-4">
+        <input type="text" placeholder="col-md-4">
+        <input type="text" placeholder="col-md-4"></div> 
+        <div class="dord"><input type="text" placeholder="col-md-3">
+        <input type="text" placeholder="col-md-3">
+        <input type="text" placeholder="col-md-3">
+        <input type="text" placeholder="col-md-3"></div>
+        <div class="bes"><input type="text" placeholder="col-md-2">
+        <input type="text" placeholder="col-md-2">
+        <input type="text" placeholder="col-md-2">
+        <input type="text" placeholder="col-md-2">
+        <input type="text" placeholder="col-md-2">
+        <input type="text" placeholder="col-md-2"></div>
+        <div class="alti">
+          <input type="text" placeholder="col-md-1">
+        <input type="text" placeholder="col-md-1">
+        <input type="text" placeholder="col-md-1">
+        <input type="text" placeholder="col-md-1">
+        <input type="text" placeholder="col-md-1">
+        <input type="text" placeholder="col-md-1">
+        <input type="text" placeholder="col-md-1">
+        <input type="text" placeholder="col-md-1">
+        <input type="text" placeholder="col-md-1">
+        <input type="text" placeholder="col-md-1">
+        <input type="text" placeholder="col-md-1">
+        <input type="text" placeholder="col-md-1"></div>
+        
+        
+      </form>
+    </div>
+    <div class="lastcommon">
+      <h2>
+        Form Design &ensp;different from elements<span
+          ><i class="fa-solid fa-chevron-up"></i
+          ><i class="fa-solid fa-wrench"></i
+          ><i class="fa-solid fa-xmark"></i
+        ></span>
+      </h2>
+      <hr class="secondhr" />
+      <h3>Horizantal Labels</h3>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis possimus incidunt corrupti ipsa ipsam dicta excepturi modi nulla cupiditate? Consectetur quia numquam itaque blanditiis nisi.</p>
+       <ul class="lastul">
+        <li><label for="">First Name*:</label>
+         <input type="text"></li>
+         <li><label for="">Last Name*:</label>
+          <input type="text"></li>
+       </ul>
+       <h3>Vertical Labels</h3>
+       <ul class="lastulone">
+        <li><label for="">Email</label>
+         <input type="email"></li>
+         <li><label for="">Password</label>
+          <input type="password"></li>
+       </ul>
+       <h3>Inline Form</h3>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut laudantium, eius libero minima earum animi sapiente error eos sint minus.</p>
+       <ul class="lastultwo">
+        <li><label for="">Email adress</label>
+         <input type="email"></li>
+         <li><label for="">Email adress</label>
+          <input type="email"></li>
+       </ul>
+       <h4>Send Invitation</h4>
+      </div>
+    </section>
+  </body>
+</html>
